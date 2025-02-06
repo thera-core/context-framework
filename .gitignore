@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+
+# Cache and Compiled Files
+__pycache__/
+*.py[cod]
+
+# Poetry and Build Files
+poetry.lock
+dist/
+build/
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Secrets
+.env
+secrets.env
+config/secrets.json
+
+# IDE and Editor
+.vscode/
+.idea/

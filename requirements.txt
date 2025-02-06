@@ -1,5 +1,10 @@
-# requirements.txt
-pandas~=1.5.0
-pytest~=7.3.0
-# Optionally add any other direct dependencies, e.g.:
-# redis~=4.5.0     # if you use Redis
+# Core dependencies
+typing-extensions>=4.0.0
+
+# Optional dependencies
+pandas>=1.0.0  # For pandas extra
+redis>=4.0.0  # For redis extra
+sqlalchemy>=1.4.0  # For database extra
+
+# Development dependencies
+pytest>=8.3.4
